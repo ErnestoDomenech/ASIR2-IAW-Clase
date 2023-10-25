@@ -6,6 +6,11 @@
     <title>Uso PHP</title>
 </head>
 <body>
+    <h1>Menu</h1>
+    <ul>
+        <li><a href="forloop.php">Bucle for</a></li>
+        <li><a href="array.php">Array</a></li>
+    </ul>
     <h1>Primer uso de php</h1>
 
     <?php
