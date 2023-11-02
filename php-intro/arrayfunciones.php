@@ -72,6 +72,67 @@
         }
     ?>
 
+    <h2>Sort - array_reverse</h2>
+    <?php
+        //ordena los elementos dentro del array de menor a mayor
+        $array = array("x","f","e","g","b");
+        sort($array);
+
+        foreach ($array as $letra){
+            echo "$letra <br>";
+        }
+
+        //invierte el orden de los elementos del array
+        $reverse = array_reverse($array);
+        foreach ($reverse as $letra){
+            echo "$letra <br>";
+        }
+    ?>
+
+    <h2>array_unique</h2>
+
+    <?php 
+    //elimina elementos duplicados dentro del array
+    $array = array("x","f","e","g","b","g","b");
+    $unicos = array_unique($array);
+    
+    foreach ($unicos as $letra){
+        echo "$letra <br>";
+    }
+    ?>
+
+    <h2>array_search</h2>
+    <?php
+    //realiza una búsqueda y devuelve el índice
+    $array = array("x","f","e","g","b","g","b");
+    $index = array_search("e", $array);
+
+    echo "<br> $index <br>";
+
+    $index = array_search("g", $array);
+    echo "<br> $index <br>";
+    echo $array[$index];
+
+    ?>
+
+    <h2>in_array</h2>
+    <?php 
+        $array = array("x","f","e","g","b","g","b");
+        $existe= in_array("x",$array);
+
+        var_dump($existe);
+        echo "<br>$existe<br>";
+
+    ?>
+    <h2>array_key_exists</h2>
+
+    <?php 
+        $frutas = array("a"=>"Arandano", "p" => "Platano", "m" => "Manzana", "n" =>"Naranja");
+        $existe = array_key_exists("p",$frutas);
+
+        var_dump($existe);
+        echo "<br>$existe<br>";
+    ?>
 
 </body>
 </html>
