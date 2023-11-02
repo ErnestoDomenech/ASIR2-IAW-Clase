@@ -10,6 +10,7 @@
     <ul>
         <li><a href="forloop.php">Bucle for</a></li>
         <li><a href="array.php">Array</a></li>
+        <li><a href="arrayfunciones.php">Array funciones</a></li>
     </ul>
     <h1>Primer uso de php</h1>
 
