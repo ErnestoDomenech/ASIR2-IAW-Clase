@@ -15,17 +15,11 @@
             </ul>
             <div id="formlogin">
                 <form action="login.php" method="post">
-                   
                         <label for="user">Usuario</label>
-                        <input type="text" name="user" id="user" placeholder="Aquí tu usuario">
-                    
-                   
+                        <input type="text" name="user" id="user" placeholder="Aquí tu usuario">          
                         <label for="password">Contraseña</label>
-                        <input type="password" name="password" id="password" placeholder="Contraseña">
-                    
-                   
+                        <input type="password" name="password" id="password" placeholder="Contraseña">          
                         <input type="submit" value="Entrar" class="boton">
-                    
                 </form>
             </div>
         </nav>
