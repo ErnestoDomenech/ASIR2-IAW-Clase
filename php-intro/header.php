@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Uso PHP</title>
+    <link rel="stylesheet" href="style.css">
+    <script src=""></script>
 </head>
 <body>
     <h1>Menu</h1>
@@ -17,8 +19,3 @@
         <li><a href="funciones.php">Funciones</a></li>
         <li><a href="includefuncion.php">Include funcion</a></li>
     </ul>
-    <h1>Primer uso de php</h1>
-
-    
-</body>
-</html>

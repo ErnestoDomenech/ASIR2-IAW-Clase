@@ -101,5 +101,10 @@
             break;
     }
     ?>
+    <footer>
+        <p style="text-align=center;">
+            Creado por 2ASIR <?php $fecha = getdate(); echo "Fecha: " . $fecha['mday'] . '/' . $fecha['mon'] . '/' . $fecha['year'];?>
+        </p>
+    </footer>
 </body>
 </html>
