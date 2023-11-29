@@ -16,6 +16,8 @@
         <li><a href="fechas.php">Fechas</a></li>
         <li><a href="funciones.php">Funciones</a></li>
         <li><a href="includefuncion.php">Include funcion</a></li>
+        <li><a href="mysql_connect\conexion.php">conexion</a></li>
+        <li><a href="mysql_connect\usuarios.php">Ver usuarios</a></li>
     </ul>
     <h1>Primer uso de php</h1>
 
